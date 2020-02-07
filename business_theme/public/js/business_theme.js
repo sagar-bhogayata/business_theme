@@ -70,4 +70,6 @@ frappe.get_desktop_icons = function (show_hidden, show_global) {
 $(function() {
     $('.dropdown-help').hide();  // or .remove();
     $('.dropdown-help').remove(); 
+    $('.footer-powered').hide();  // or .remove();
+    $('.footer-powered').remove(); 
 });
